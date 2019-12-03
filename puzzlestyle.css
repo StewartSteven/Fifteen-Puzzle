@@ -1,0 +1,132 @@
+body{
+  background-image: linear-gradient(to bottom right, white, #F4A447); 
+}
+
+
+#GameArea{
+  margin-left: auto;
+  margin-right: auto;
+}
+#PuzzleTiles {
+	font-size: 32px;
+	height: 400px;
+	padding: 0px;
+	position: relative;
+}
+
+
+
+#GameGrid{
+  border: 2px solid black;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.Tile{
+ 
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+	vertical-align: middle;
+}
+.title{
+  text-align: center;
+}
+#Controls{  
+  text-align: center;
+}
+#ShuffleButton{
+  font-family: 'Lato';
+  font-size: 15px;
+  padding: 5px;
+  margin: 0.3em 0em 0.3em 0em;
+}
+
+#ShuffleButton:hover{
+  font-family: 'Lato';
+  border-color: red;
+  background-color: #FBC68A;
+  font-weight: bold;
+  transition: all .70s;
+}
+#ResetButton{
+  font-family: 'Lato';  
+  font-size: 15px;
+  padding: 5px;
+  margin: 0.3em 0em 0.3em 0em;
+}
+
+#ResetButton:hover{
+  font-family: 'Lato';
+  border-color: red;
+  background-color: #FBC68A;
+  font-weight: bold;
+  transition: all .70s;
+}
+
+#BeginButton{
+  font-family: 'Lato';  
+  font-size: 15px;
+  padding: 5px;
+  margin: 0.3em 0em 0.3em 0em;
+}
+
+#BeginButton:hover{
+  font-family: 'Lato';
+  border-color: red;
+  background-color: #FBC68A;
+  font-weight: bold;
+  transition: all .70s;
+}
+
+#playAudio{
+ 
+  font-family: 'Lato';
+  font-size: 15px;
+  padding: 5px;
+  margin: 0.3em 0em 0.3em 0em;
+}
+
+#playAudio:hover{
+   font-family: 'Lato';
+  border-color: red;
+  background-color: #FBC68A;
+  font-weight: bold;
+  transition: all .70s;
+}
+.dog { 
+  background: url("background.jpg"); 
+}
+.castle{ 
+  background: url("castle.jpg");
+}
+.cat{ 
+  background: url("cat.png");
+}
+.eiffel{ 
+  background: url("eiffel.jpg");
+}
+
+#validators{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
